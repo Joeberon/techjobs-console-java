@@ -80,7 +80,6 @@ public class JobData {
                 jobs.add(row);
             }
         }
-
         return jobs;
     }
 

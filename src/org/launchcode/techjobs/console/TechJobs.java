@@ -117,7 +117,7 @@ public class TechJobs {
             {
                 String key = oneJob.getKey();
                 String value = oneJob.getValue();
-                System.out.println(key + " : " + value);
+                System.out.println(key.toLowerCase() + " : " + value.toLowerCase());
             }
 
             System.out.println("*****" + newline);
@@ -125,6 +125,5 @@ public class TechJobs {
         if (someJobs.isEmpty()){
             System.out.println("invalid data");
         }
-
     }
 }
